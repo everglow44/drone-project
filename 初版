@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>无人机装箱模拟器</title>
+    text-align:center
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
