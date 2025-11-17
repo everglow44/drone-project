@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>无人机装箱模拟器</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>无人机装箱模拟器</h1>
+        <div class="controls">
+            <label>载重无人机数量: <input type="number" id="cargo-count" value="5"></label>
+            <label>侦察无人机数量: <input type="number" id="scout-count" value="20"></label>
+            <button onclick="runSimulation()">开始模拟</button>
+        </div>
+        <div id="stats"></div>
+        <div id="3d-container"></div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
