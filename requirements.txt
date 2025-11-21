@@ -3,3 +3,4 @@ numpy
 matplotlib
 mpl_toolkits
 base64
+io
