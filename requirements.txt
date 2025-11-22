@@ -1,6 +1,6 @@
 streamlit
 numpy
-matplotlib
+matplotlib.pyplot
 mpl_toolkits
 base64
 io
@@ -9,4 +9,3 @@ sys
 os
 re
 itertools
-mpl-toolkits
