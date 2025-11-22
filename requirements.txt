@@ -4,3 +4,8 @@ matplotlib
 mpl_toolkits
 base64
 io
+subprocess
+sys
+os
+re
+itertools
